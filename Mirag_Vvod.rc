@@ -1,0 +1,223 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Mirag_Vvod.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Mirag_Vvod.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MIRAG_VVOD_DIALOG DIALOGEX 0, 0, 418, 142
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION 
+"Программа приёма абонентских каналов VSAT-TES (от платы ""Мираж-2М"" c 2-мя входами)"
+
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Пуск",ID_B_Pusk,320,18,50,14
+    PUSHBUTTON      "Стоп",ID_B_Stop,320,36,50,14
+    LTEXT           "Индикатор работы:",ID_INDICATOR,281,115,66,8
+    LTEXT           "                                                           ",
+                    IDC_IND,351,114,47,10,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Записано кБайт:",IDC_STATIC,163,19,58,8
+    CTEXT           "                 ",IDC_ISDONE1,222,19,40,8
+    LTEXT           "Синхронизация 1-го канала:",IDC_STATIC,15,20,95,8
+    CTEXT           "                             ",IDC_SYN1,113,18,30,11,
+                    SS_SUNKEN
+    LTEXT           "Начальная фаза демодулятора:",IDC_STATIC,15,70,111,8
+    LTEXT           "                 ",IDC_PHASA1,127,69,28,11,SS_SUNKEN
+    LTEXT           "Сдвиг (в битах):",IDC_STATIC,227,90,54,8
+    LTEXT           "         ",IDC_SDWIG1,283,88,28,11,SS_SUNKEN
+    LTEXT           "Порядок каналов:",IDC_STATIC,218,70,62,8
+    LTEXT           "       ",IDC_PQ1,283,68,28,11,SS_SUNKEN
+    LTEXT           "Сдвиг в дибите (для ФМ-4) :",IDC_STATIC,29,87,94,8
+    LTEXT           "",IDC_S_DYBYT1,128,87,28,11,SS_SUNKEN
+    LTEXT           "Синхронизация 2-го канала:",IDC_STATIC,15,35,95,8
+    CTEXT           "",IDC_SYN2,113,34,30,11,SS_SUNKEN
+    LTEXT           "",IDC_PQ2,318,68,28,11,SS_SUNKEN
+    LTEXT           "",IDC_SDWIG2,317,88,28,11,SS_SUNKEN
+    LTEXT           "",IDC_PHASA2,162,69,28,11,SS_SUNKEN
+    LTEXT           "",IDC_S_DYBYT2,162,87,28,11,SS_SUNKEN
+    LTEXT           "Байт в буфере канала:",IDC_STATIC,144,116,78,8
+    LTEXT           "",IDC_SIZE_BUF,222,115,27,11,SS_SUNKEN
+    LTEXT           "Байт в буфере драйвера:",IDC_STATIC,24,117,85,8
+    LTEXT           "",IDC_SIZ_BBUF,110,116,27,11,SS_SUNKEN
+    LTEXT           "Записано кБайт:",IDC_STATIC,163,36,58,8
+    CTEXT           "                 ",IDC_ISDONE2,222,37,40,8
+    GROUPBOX        "",IDC_STATIC,17,106,243,26,BS_FLAT
+    LTEXT           "Канал 1",IDC_STATIC,127,60,28,8
+    LTEXT           "Канал 2",IDC_STATIC,162,60,28,8
+    LTEXT           "Канал 1",IDC_STATIC,283,59,28,8
+    LTEXT           "Канал 2",IDC_STATIC,317,59,28,8
+    GROUPBOX        "",IDC_STATIC,7,7,404,132
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MIRAG_VVOD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 411
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Mirag_Vvod MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Mirag_Vvod\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Mirag_Vvod.EXE\0"
+            VALUE "ProductName", "Mirag_Vvod Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Mirag_Vvod.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
