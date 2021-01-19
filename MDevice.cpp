@@ -45,7 +45,7 @@ BOOL CMDevice::Create(int DeviceNumber,HWND pParentWnd)
 					     NULL);
 	if (m_hDevice==INVALID_HANDLE_VALUE) 
 	{
-		MessageBox(NULL,"Проверьте установку драйвера на Мираж",NULL,MB_OK|MB_ICONERROR);
+		MessageBox(NULL,"Check the Mirage driver installation",NULL,MB_OK|MB_ICONERROR);
 		exit(0);
 	}
 
