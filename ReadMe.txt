@@ -1,4 +1,4 @@
-========================================================================
+======================================
 Project of Visual Studio 2019 Community.
 
 Project for receiving and processing signals of satellite modems of the VSAT-TES Quantum system by Hughes NS.
